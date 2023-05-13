@@ -185,6 +185,10 @@ body {
   height: 0;
 }
 
+ .menu__list {
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
 .menu__list-item {
   display: flex;
   align-items: center;
